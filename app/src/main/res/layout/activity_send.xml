@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroungwithlogo"
+
+    tools:context=".ui.SendActivity">
+
+
+    <TextView
+        android:id="@+id/Send_To"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/cairo"
+        android:text="@string/To"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Send_To_TV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/graytextview" />
+
+    <TextView
+        android:id="@+id/Address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/cairo"
+        android:layout_below="@id/Send_To"
+        android:text="@string/Adress"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/Address_TV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/Send_To_TV"
+        android:background="@drawable/graytextview" />
+
+    <EditText
+        android:id="@+id/MessageDeatils"
+
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="140dp"
+
+        android:layout_below="@id/Address_TV"
+        android:background="@drawable/graytextview"  />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/Address"
+    android:layout_marginTop="70dp"
+    android:layout_marginStart="20dp"
+    android:text="@string/Message"
+    android:textSize="25dp"
+    android:fontFamily="@font/cairo"
+    android:textColor="@color/black"
+
+    />
+
+    <Button
+        android:id="@+id/Send_Button"
+        android:layout_below="@id/MessageDeatils"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"
+        />
+
+    <Button
+        android:id="@+id/SendActivity_back_Button"
+        android:layout_below="@id/Send_Button"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Back"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"
+        />
+
+
+
+
+</RelativeLayout>

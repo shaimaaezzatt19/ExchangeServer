@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroungwithlogo"
+    android:layout_height="match_parent"
+    tools:context=".ui.ReciveActivity">
+
+    <TextView
+        android:id="@+id/Recive_From"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/cairo"
+        android:text="@string/From"
+        android:textColor="@color/blue"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/Recive_From_TV"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/graytextview" />
+
+    <TextView
+android:id="@+id/ReciveActivity_Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Recive_From"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/cairo"
+        android:text="@string/Message"
+        android:textColor="@color/blue"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/RecivieActivityMessgae_Tv"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="140dp"
+
+        android:layout_below="@id/Recive_From_TV"
+        android:background="@drawable/graytextview"  />
+
+
+    <Button
+        android:id="@+id/Recivie_Button"
+        android:layout_below="@id/RecivieActivityMessgae_Tv"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/OK"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"
+        />
+
+    <Button
+        android:id="@+id/Back_Button"
+        android:layout_below="@id/Recivie_Button"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginStart="70dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:text="@string/Back"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"
+        />
+</RelativeLayout>

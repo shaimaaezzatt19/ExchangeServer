@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Exchange Server</string>
+
+    //Main Activity
+    <string name="send">Send</string>
+    <string name="recive">Recive</string>
+    <string name="Mail">Mail</string>
+    <string name="Logout">Log Out</string>
+
+    //Go Activity
+    <string name="Go">Go</string>
+
+    //Login Activity
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="ForgetPassword">Forget Password?</string>
+    <string name="CreateNewAccount">Create New Account?</string>
+
+    //Recive Activity
+    <string name="From">From</string>
+    <string name="Message">Message</string>
+    <string name="OK">OK</string>
+
+    //Send Activity
+    <string name="To">To</string>
+    <string name="Adress">Address</string>
+    <string name="Send">Send</string>
+    <string name="Back">Back</string>
+
+    //Logout Activity
+    <string name="Bye">Bye</string>
+
+    //wrong
+    <string name="wrong">wrong</string>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrountmet"
+    tools:context=".ui.MainActivity">
+
+    <Button
+        android:id="@+id/Main_Send"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="@dimen/start_end"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="@dimen/start_end"
+        android:background="@drawable/button"
+        android:fontFamily="@font/cairo"
+        android:text="@string/send"
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/Main_Recive"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/Main_Send"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/start_end"
+        android:layout_marginEnd="@dimen/start_end"
+        android:background="@drawable/button"
+        android:text="@string/recive"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"/>
+
+    <Button
+        android:id="@+id/Main_Mail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/Main_Recive"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/start_end"
+        android:layout_marginEnd="@dimen/start_end"
+        android:background="@drawable/button"
+        android:text="@string/Mail"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"/>
+
+    <Button
+        android:id="@+id/LogOut"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/Main_Mail"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="@dimen/start_end"
+        android:layout_marginEnd="@dimen/start_end"
+        android:background="@drawable/button"
+        android:text="@string/Logout"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"/>
+
+
+
+
+</RelativeLayout>

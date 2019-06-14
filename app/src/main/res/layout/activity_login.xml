@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrountmet"
+    tools:context=".ui.LoginActivity">
+
+    <TextView
+        android:id="@+id/Login_Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="220dp"
+        android:hint="@string/Email"
+        android:textSize="30dp"
+        android:layout_marginEnd="@dimen/start_end"
+        android:layout_marginStart="@dimen/start_end"
+        android:background="@drawable/textview" />
+
+    <TextView
+        android:id="@+id/Login_Pass"
+        android:layout_below="@id/Login_Email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="@dimen/start_end"
+        android:layout_marginStart="@dimen/start_end"
+        android:hint="@string/Password"
+        android:textSize="30dp"
+        android:textColor="@color/blue"
+        android:background="@drawable/textview" />
+
+    <Button
+        android:id="@+id/Login_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/Login_Pass"
+        android:layout_marginStart="@dimen/start_end"
+        android:layout_marginEnd="@dimen/start_end"
+        android:background="@drawable/button"
+        android:text="@string/Login"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:fontFamily="@font/cairo"/>
+
+
+</RelativeLayout>
